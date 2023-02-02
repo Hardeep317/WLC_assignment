@@ -33,8 +33,6 @@ export default function Upload() {
         <Text className='h1'>Upload Your Files From Here</Text>
      <Button className='uploadBtn' onClick={() => handleOpenPicker()}>View File</Button>
      <Link  to={"/"}><Button className='gotoHome'>Go to Home</Button></Link>
-     {show && <Text mt={"40px"}>hebebgd.png</Text>}
-     {show && <Text mt={"30px"}><a href='https://drive.google.com/file/d/1yD33h9tSCMEEzTQnc4VqgG-vzykvvdAY/view?usp=share_link'>https://drive.google.com/file/d/1yD33h9tSCMEEzTQnc4VqgG-vzykvvdAY/view?usp=share_link</a> </Text>}
      <Text mt={"300px"}><a className="anchor_tag" href="https://drive.google.com/drive/u/0/my-drive"> Go to Your Drive</a></Text>
     </Box>
   )
